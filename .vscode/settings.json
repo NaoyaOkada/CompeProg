@@ -47,5 +47,8 @@
         "typeinfo": "cpp",
         "list": "cpp",
         "cstring": "cpp"
-    }
+    },
+    "editor.defaultFormatter": "xaver.clang-format",
+    "clang-format.executable": "/usr/bin/clang-format",
+    "editor.formatOnSave": false
 }
