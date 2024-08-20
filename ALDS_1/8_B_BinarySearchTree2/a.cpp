@@ -102,7 +102,7 @@ bool find(int key) {
 }
 
 int main() {
-  init();
+  //init();
   int n;
   cin >> n;
 
