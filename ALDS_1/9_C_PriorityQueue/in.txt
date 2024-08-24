@@ -1,0 +1,6 @@
+insert 120
+insert 88
+insert 3
+insert 999999999
+insert 7
+end
