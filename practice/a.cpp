@@ -67,24 +67,34 @@ bool rec(int i, int x) {
 
 
 
+long long factoria(int x) {
+    if (x == 0) {
+        return 1;
+    } else {
+        return x * factoria(x - 1);
+    }
+}
+
 int main() {
 
-    for (int i = 0; i <= n; i++)
-    {
-        for (int j = 0; j <= target; j++)
-        {
-            C[i][j].solved = false;
-            C[i][j].done = false;            
-        }        
-    };
+    long long result = factoria(20);
+    cout << result << endl;
+    // for (int i = 0; i <= n; i++)
+    // {
+    //     for (int j = 0; j <= target; j++)
+    //     {
+    //         C[i][j].solved = false;
+    //         C[i][j].done = false;            
+    //     }        
+    // };
     
 
 
-    bool result = rec(0, target);
+    // bool result = rec(0, target);
 
-    cout << result << endl;
-    cout << call << endl;
-    cout << sel << endl;
+    // cout << result << endl;
+    // cout << call << endl;
+    // cout << sel << endl;
 
     return 0;
 }
